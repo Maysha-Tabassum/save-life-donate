@@ -30,14 +30,21 @@ h1 {
 
 h2 {
     font-style: normal;
-    font-weight: 700;
+    font-weight: 800;
     font-size: 40px;
     line-height: 64px;
 }
 
-p {
+h3 {
     font-style: normal;
-    font-size: 18px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+.middle {
+    font-style: normal;
+    font-size: 16px;
     font-weight: 200px;
     width: 50%;
     margin: auto;
@@ -68,7 +75,7 @@ p {
     font-style: normal;
     font-size: 18px;
     font-weight: 200px;
-    width: 70%;
+    width: 90%;
     margin: auto;
     text-align: center;
     margin-top: 30px;
@@ -105,4 +112,44 @@ p {
     color: tomato;
     background-color: rgb(249, 224, 218);
     border: 2px solid tomato;
+}
+
+.flexible-box {
+    display: block;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.box {
+    width: 30%;
+    height: 245px;
+    background-color: rgb(244, 240, 240);
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 200;
+    text-align: left;
+    padding: 30px 10px;
+    /* display: block; */
+    margin: 15px;
+}
+
+.flexible-box h3,
+img,
+p {
+    padding-left: 20px;
+}
+
+#box-1 {
+    background-color: rgb(221, 240, 243);
+}
+
+#box-2 {
+    background-color: rgb(253, 232, 236);
+}
+
+#box-3 {
+    background-color: beige;
 }
