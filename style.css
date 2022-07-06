@@ -42,6 +42,17 @@ h3 {
     line-height: 50px;
 }
 
+.container {
+    /* font-style: normal;
+    font-size: 18px;
+    font-weight: 200px; */
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
 .middle {
     font-style: normal;
     font-size: 16px;
@@ -86,17 +97,6 @@ h3 {
 
 }
 
-.donation-sec {
-    font-style: normal;
-    font-size: 18px;
-    font-weight: 200px;
-    width: 90%;
-    margin: auto;
-    text-align: center;
-    margin-top: 30px;
-    padding-top: 20px;
-}
-
 .amount {
     display: block;
     width: 80%;
@@ -105,11 +105,7 @@ h3 {
     justify-content: space-evenly;
 }
 
-.b1,
-.b2,
-.b3,
-.b4,
-.b5 {
+.amount-boxes {
     width: 15%;
     height: 60px;
     background-color: rgb(244, 240, 240);
@@ -147,7 +143,6 @@ h3 {
     font-weight: 200;
     text-align: left;
     padding: 30px 10px;
-    /* display: block; */
     margin: 15px;
 }
 
@@ -169,10 +164,31 @@ p {
     background-color: beige;
 }
 
+
+.half-width {
+    background-color: lightcyan;
+    display: flex;
+    width: 100%;
+    padding-left: 30px 20px;
+    margin-top: 70px;
+}
+
+.half-width img {
+    width: 600px;
+    height: 350px;
+
+
+}
+
+.half-width h3 {
+    padding: 30px 40px;
+
+}
+
 .contact-sec {
 
-    padding: 20px 50px;
-    margin: 30px auto;
+    padding: 25px 50px;
+    margin: 90px auto;
     background-color: rgb(250, 250, 197);
     width: 50%;
 
