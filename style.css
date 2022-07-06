@@ -72,6 +72,20 @@ h3 {
     border-radius: 5px;
 }
 
+#btn {
+    color: white;
+    background-color: tomato;
+    border: none;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    height: 40px;
+    width: 120px;
+    padding: 10px;
+    border-radius: 3px;
+
+}
+
 .donation-sec {
     font-style: normal;
     font-size: 18px;
@@ -140,7 +154,7 @@ h3 {
 .flexible-box h3,
 img,
 p {
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 #box-1 {
@@ -156,30 +170,47 @@ p {
 }
 
 .contact-sec {
-    padding: 30px 50px;
-    margin: 30px 40px;
+
+    padding: 20px 50px;
+    margin: 30px auto;
     background-color: rgb(250, 250, 197);
     width: 50%;
-    margin: 40px auto;
+
 }
 
 
-form {
-    margin: 30px;
+.input-sec {
+    margin: 40px 40px;
+    height: 35px;
+    margin: auto;
+    display: flex;
+    padding: 40px 80px;
+
 }
+
+#email {
+    border-radius: 2px;
+    border: none;
+    padding-left: 20px;
+    width: 60%;
+    height: 40px;
+    background-color: gainsboro;
+}
+
 
 footer {
+    margin-top: 65px;
     text-align: center;
     background: #0B0D17;
 }
 
-footer h2 {
+footer h3 {
     color: hotpink;
-    padding-top: 50px;
+    padding-top: 40px;
     padding-bottom: 10px;
 }
 
 footer p {
     color: #fff;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
