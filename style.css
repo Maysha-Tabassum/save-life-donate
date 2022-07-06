@@ -42,10 +42,13 @@ h3 {
     line-height: 50px;
 }
 
-.container {
-    /* font-style: normal;
+#special-text {
     font-size: 18px;
-    font-weight: 200px; */
+    font-weight: 100;
+    color: rgb(192, 191, 191);
+}
+
+.container {
     width: 90%;
     margin: auto;
     text-align: center;
@@ -166,7 +169,8 @@ p {
 
 
 .half-width {
-    background-color: lightcyan;
+    /* background-color: lightcyan; */
+    background-image: linear-gradient(lightcyan, rgb(243, 248, 249));
     display: flex;
     width: 100%;
     padding-left: 30px 20px;
